@@ -6,7 +6,6 @@ class ArrayContainer extends React.Component {
     component: PropTypes.element.isRequired,
     children: PropTypes.element.isRequired
   };
-
   render() {
     const arr = React.Children.toArray(this.props.children);
 

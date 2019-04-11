@@ -25,7 +25,6 @@ module.exports = class extends React.Component {
             placeholder='Name'
             ref='name'
           />
-
           <input type='submit' />
         </form>
 

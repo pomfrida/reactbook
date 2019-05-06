@@ -37,7 +37,7 @@ module.exports = class extends React.Component {
           value={this.state.value}
           onChange={this.onChange}
         />
-        <span style={{color: 'red'}}>{this.state.error}</span>
+        <span style={{color: 'red', width:'100px', height:'100px', length:'100px'}}>{this.state.error}</span>
       </div>
     );
   }

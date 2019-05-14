@@ -4,8 +4,9 @@
   "private": true,
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
   "devDependencies": {
-    "react-scripts": "0.9.5",
-    "concurrently": "3.4.0"
+    "codecrumbs": "^1.2.14",
+    "concurrently": "3.4.0",
+    "react-scripts": "0.9.5"
   },
   "dependencies": {
     "prop-types": "15.6.0",
@@ -22,6 +23,7 @@
     "test": "npm run run-e2e",
     "eject": "react-scripts eject",
     "e2e": "nightwatch -c nightwatch.conf.js",
+    "cc": "codecrumbs -d src -e src/index.js",
     "run-e2e": "concurrently -s first -k \"npm start\" \"sleep 15; npm run e2e\""
   }
 }
